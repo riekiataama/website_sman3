@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Kontak </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="sman3.png">
+    </head>
+
+    <body>
+        <!--Bagian Header-->
+    <header>
+        <a href="index.html"><img src="sman3.png" alt="Logo Sekolah"></a>
+        <div class="identitas">
+            <h1> SMAN 3 Bandung</h1>
+    </div>
+
+    <!--Bagian Navigasi-->
+    <nav>
+        <ul>
+            <li><a href="index.html"> Beranda </a></li>
+            <li>
+                <a href="#"> Profil </a>
+                <ul>
+                    <li><a href="#"> Sejarah Sekolah </a></li>
+                    <li><a href="#"> Visi & Misi </a></li>
+                    <li><a href="guru&staff.html"> Guru & Staff </a></li>
+                </ul>
+            </li>
+            
+            <li><a href="berita.html"> Berita </a></li>
+            <li><a href="kontak.html"> Kontak </a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Form Kontak -->
+
+    <main class="container" id="kontak">
+    <h2>Kontak</h2>
+
+    <form class="contact-form">
+      <label for="nama">Nama</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="pesan">Pesan / Pertanyaan</label>
+      <textarea id="pesan" name="pesan" rows="6" required></textarea>
+
+      <button type="submit" onclick="alert('Data telah dikonfirmasi!'); window.location.href='index.html';">Kirim</button>
+    </form>
+    </main>
+    <button type="submit" onclick="alert"('Data Telah Dikonfirmasi!')><a href="index.html"></a> Kirim </button>
+
+    </body>
+</html>
